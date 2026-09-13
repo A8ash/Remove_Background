@@ -5,7 +5,7 @@ response = requests.post(
     # تم وضع اسم الصورة الحقيقي هنا في المدخلات
     files={'image_file': open('صور-جميلة-رائعة.jpg', 'rb')},
     data={'size': 'auto'},
-    headers={'X-Api-Key': '8A4rvKMNWvCvkeqhWcj31nGz'},
+    headers={'X-Api-Key': '8A4rvKMNWvCvkeqhWcj3XXXX'},
 )
 
 if response.status_code == requests.codes.ok:
